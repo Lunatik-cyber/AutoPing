@@ -174,7 +174,7 @@ def check_selected_servers():
                     rprint(f'{ip.id}) {ip.server_address} | Работает!')
                 else:
                     rprint(f'{ip.id}) {ip.server_address} | Не работает!')
-                time.sleep(3)
+                time.sleep(1)
             rprint('=============================================')
             timeout()
     except KeyboardInterrupt:
@@ -198,7 +198,7 @@ def check_servers():
                     rprint(f'{ip.id}) {ip.server_address} | Работает!')
                 else:
                     rprint(f'{ip.id}) {ip.server_address} | Не работает!')
-                time.sleep(3)
+                time.sleep(1)
             rprint('=============================================')
             data = settings.select().where(settings.id == 1).get()
             timeout()
