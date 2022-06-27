@@ -18,7 +18,7 @@ python3 autoping.py
 
 ### Windows
 
-Скачайте установщик [**ТУТ**](https://github.com/Lunatik-cyber/AutoPing/releases) или скачайте архив с исходным кодом и запустите командой: python autoping.py
+Скачайте установщик [**ТУТ**](https://github.com/Lunatik-cyber/AutoPing/releases) или скачайте архив с исходным кодом и запустите командой: **python autoping.py**
 
 ____
 Telegram: [**@ShellRok**](https://t.me/ShellRok)  
