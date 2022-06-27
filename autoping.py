@@ -9,7 +9,10 @@ try:
     from peewee import *
 except ImportError:
     rprint('Начинаю процесс установки недостающих библеотек...')
-    os.system('python -m pip install rich ping3 requests requests[socks] peewee')
+    if os.name == 'nt':
+        os.system('pip install -r requirements.txt')
+    else:
+        os.system('pip3 install -r requirements.txt')
     rprint('Установка завершена!')
     rprint('Перезапустите скрипт!')
     exit()
